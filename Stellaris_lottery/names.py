@@ -6,7 +6,7 @@ for a list of players.
 The amount of Gestalt players can be set
 aswell as the number of ethiccombinations per player.
 The total amount of possible ethics is 80.
-The script will break of playercount * ethic per player exceeds 80.
+The script will break if playercount * ethic per player exceeds 80.
 """
 
 import random
