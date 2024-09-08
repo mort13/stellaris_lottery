@@ -12,13 +12,13 @@ The script will break if playercount * ethic per player exceeds 80.
 import random
 
 players = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
+    "Mort",
+    "Alius",
+    "Niclaz",
+    "Markus",
+    "BlackDragon",
+    "Adama",
+    "Wildcard",
     "8",
     "9"]
 
@@ -96,6 +96,10 @@ origin_ethics_mapping = {
     "Payback": ethics[:-1],
     "Fear of the Dark": ethics[:-1],
     "Under One Rule": ethics[2:-1],
-    "Riftworld": ethics
+    "Riftworld": ethics,
+    "Cybernetic Creed": ethics[14:16],
+    "Synthetic Fertility": ethics[:14],
+    "Arc Welders": ethics[-1],
+    "Storm Chasers":ethics
 }
 
