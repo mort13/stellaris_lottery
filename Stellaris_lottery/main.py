@@ -11,7 +11,7 @@ import names
 gestalt = names.gestalt_num
 
 
-vectors = functions.create_ethic_vectors(names.ethic_axis,5)
+vectors = functions.create_ethic_vectors(names.ethic_axis,3)
 print(len(vectors))
 ethic_vectors = functions.assign_ethics_to_vector(vectors, names.ethic_axis,gestalt)
 
