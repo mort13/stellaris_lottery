@@ -18,7 +18,7 @@ players = [
     ]
 
 gestalt_num = random.randrange(0,2,1)
-ethic_num = 5
+ethic_num = 3
 
 
 """
@@ -31,10 +31,10 @@ ethic_axis=[
 ["","Egalitarian","Fanatic Egalitarian","Fanatic Authoritarian","Authoritarian"],
 ["","Militarist","Fanatic Militarist","Fanatic Pacifist","Pacifist"],
 ["","Xenophobe","Fanatic Xenophobe","Fanatic Xenophile","Xenophile"],
-["","Competetive","Fanatic Competetive","Fanatic Cooperative","Cooperative"],
-["","Elitist","Fanatic Elitist","Fanatic Pluralist","Pluralist"],
-["","Materialist","Fanatic Materialist","Fanatic Spiritualist","Spiritualist"],
-["","Industrialist","Fanatic Industrialist","Fanatic Ecologist","Ecologist"]
+#["","Competetive","Fanatic Competetive","Fanatic Cooperative","Cooperative"],
+#["","Elitist","Fanatic Elitist","Fanatic Pluralist","Pluralist"],
+["","Materialist","Fanatic Materialist","Fanatic Spiritualist","Spiritualist"]
+#["","Industrialist","Fanatic Industrialist","Fanatic Ecologist","Ecologist"]
 ]
 
 #Ethics to map onto the ethic vectors
@@ -55,7 +55,7 @@ ethics = [
     "Materialist",              #13
     "Fanatic Spiritualist",     #14
     "Spiritualist",             #15
-
+"""
     "Fanatic Competetive",      #16
     "Competetive",              #17
     "Fanatic Cooperative",      #18
@@ -68,7 +68,7 @@ ethics = [
     "Industrialist",            #25
     "Fanatic Ecologist",        #26
     "Ecologist",                #27
-
+"""
     "Gestalt Consciousness"     #18
 ]
 
