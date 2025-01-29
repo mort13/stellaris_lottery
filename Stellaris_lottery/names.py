@@ -12,18 +12,13 @@ The script will break if playercount * ethic per player exceeds 80.
 import random
 
 players = [
-    "Mort",
-    "Alius",
-    "Niclaz",
-    "Markus",
-    "BlackDragon",
-    "Adama",
-    "Wildcard",
-    "8",
-    "9"]
+    "1",
+    "2",
+    "3"
+    ]
 
 gestalt_num = random.randrange(0,2,1)
-ethic_num = 3
+ethic_num = 5
 
 
 """
@@ -33,10 +28,13 @@ Only modify the following variables if you know what you are doing
 """
 #Ethic axis along wich the ethic vector will be constructed
 ethic_axis=[
-["","Authoritarian","Fanatic Authoritarian","Fanatic Egalitarian","Egalitarian"],
-["","Xenophile","Fanatic Xenophile","Fanatic Xenophobe","Xenophobe"],
-["","Pacifist","Fanatic Pacifist","Fanatic Militarist","Militarist"],
-["","Spiritualist","Fanatic Spiritualist","Fanatic Materialist","Materialist",]
+["","Egalitarian","Fanatic Egalitarian","Fanatic Authoritarian","Authoritarian"],
+["","Militarist","Fanatic Militarist","Fanatic Pacifist","Pacifist"],
+["","Xenophobe","Fanatic Xenophobe","Fanatic Xenophile","Xenophile"],
+["","Competetive","Fanatic Competetive","Fanatic Cooperative","Cooperative"],
+["","Elitist","Fanatic Elitist","Fanatic Pluralist","Pluralist"],
+["","Materialist","Fanatic Materialist","Fanatic Spiritualist","Spiritualist"],
+["","Industrialist","Fanatic Industrialist","Fanatic Ecologist","Ecologist"]
 ]
 
 #Ethics to map onto the ethic vectors
@@ -57,7 +55,21 @@ ethics = [
     "Materialist",              #13
     "Fanatic Spiritualist",     #14
     "Spiritualist",             #15
-    "Gestalt Consciousness"     #16
+
+    "Fanatic Competetive",      #16
+    "Competetive",              #17
+    "Fanatic Cooperative",      #18
+    "Cooperative",              #19
+    "Fanatic Elitist",          #20
+    "Elitist",                  #21
+    "Fanatic Pluralist",        #22
+    "Pluralist",                #23
+    "Fanatic Industrialist",    #24
+    "Industrialist",            #25
+    "Fanatic Ecologist",        #26
+    "Ecologist",                #27
+
+    "Gestalt Consciousness"     #18
 ]
 
 #Dictionary mapping origins to allowed ethics
@@ -100,6 +112,8 @@ origin_ethics_mapping = {
     "Cybernetic Creed": ethics[14:16],
     "Synthetic Fertility": ethics[:14],
     "Arc Welders": ethics[-1],
-    "Storm Chasers":ethics
+    "Storm Chasers":ethics,
+    "Primal Calling":ethics,
+    "Treasure Hunters":ethics
 }
 
